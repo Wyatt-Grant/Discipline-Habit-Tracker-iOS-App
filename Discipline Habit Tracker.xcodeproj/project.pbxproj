@@ -1,0 +1,1047 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD0CC9D62AE9C01B0097283A /* CreateEditPunishment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0CC9D52AE9C01B0097283A /* CreateEditPunishment.swift */; };
+		AD0CC9D82AE9C6690097283A /* CreateEditReward.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0CC9D72AE9C6690097283A /* CreateEditReward.swift */; };
+		AD11E7FF2AEB2A0200E41A9A /* RewardDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD11E7FE2AEB2A0200E41A9A /* RewardDetails.swift */; };
+		AD11E8012AEB2D4E00E41A9A /* MessageDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD11E8002AEB2D4E00E41A9A /* MessageDetails.swift */; };
+		AD11E8042AEC8EAA00E41A9A /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD11E8032AEC8EAA00E41A9A /* Api.swift */; };
+		AD11E8072AEC917500E41A9A /* HabitTaskData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD11E8062AEC917500E41A9A /* HabitTaskData.swift */; };
+		AD11E8092AECA9A100E41A9A /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD11E8082AECA9A100E41A9A /* Date.swift */; };
+		AD11E80C2AECAC6900E41A9A /* HabitTask7DayHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD11E80B2AECAC6900E41A9A /* HabitTask7DayHistory.swift */; };
+		AD11E80F2AED591700E41A9A /* PunishmentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD11E80E2AED591700E41A9A /* PunishmentData.swift */; };
+		AD11E8112AED5A9300E41A9A /* HabitTaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD11E8102AED5A9300E41A9A /* HabitTaskRow.swift */; };
+		AD11E8132AED5ABC00E41A9A /* PunishmentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD11E8122AED5ABC00E41A9A /* PunishmentRow.swift */; };
+		AD11E8152AED5ED400E41A9A /* RewardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD11E8142AED5ED400E41A9A /* RewardRow.swift */; };
+		AD11E8172AED5EE300E41A9A /* RewardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD11E8162AED5EE300E41A9A /* RewardData.swift */; };
+		AD11E8192AED61D100E41A9A /* MessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD11E8182AED61D100E41A9A /* MessageRow.swift */; };
+		AD11E81B2AED61DE00E41A9A /* MessageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD11E81A2AED61DE00E41A9A /* MessageData.swift */; };
+		AD12E02C2B19443E0007DAB2 /* ReminderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD12E02B2B19443E0007DAB2 /* ReminderData.swift */; };
+		AD26B63A2AFC1006009365CA /* DomOtherTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B6392AFC1006009365CA /* DomOtherTab.swift */; };
+		AD26B63C2AFC11E2009365CA /* SubOtherTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B63B2AFC11E2009365CA /* SubOtherTab.swift */; };
+		AD26B63E2AFC12B6009365CA /* HabitTaskHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B63D2AFC12B6009365CA /* HabitTaskHistory.swift */; };
+		AD40E0E92AE748BA0020C2C8 /* DomPunishments.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD40E0E82AE748BA0020C2C8 /* DomPunishments.swift */; };
+		AD499BA32B2BDC0B0097CCC2 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD499BA22B2BDC0B0097CCC2 /* Register.swift */; };
+		AD4AA1B92AEEC56D0095E563 /* GenericData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4AA1B82AEEC56D0095E563 /* GenericData.swift */; };
+		AD5D45F62B4C815100D88ADC /* SecureTextFieldWithReveal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5D45F52B4C815100D88ADC /* SecureTextFieldWithReveal.swift */; };
+		AD6428EB2AF32789002499F5 /* DomRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6428EA2AF32789002499F5 /* DomRules.swift */; };
+		AD6428ED2AF327AD002499F5 /* CreateEditRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6428EC2AF327AD002499F5 /* CreateEditRule.swift */; };
+		AD6428EF2AF3282B002499F5 /* RuleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6428EE2AF3282B002499F5 /* RuleData.swift */; };
+		AD6428F12AF328D0002499F5 /* RuleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6428F02AF328D0002499F5 /* RuleRow.swift */; };
+		AD6428F42AF32971002499F5 /* SubRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6428F32AF32971002499F5 /* SubRules.swift */; };
+		AD6428F72AF401BF002499F5 /* DynamicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6428F62AF401BF002499F5 /* DynamicInfo.swift */; };
+		AD6428F92AF403D2002499F5 /* DynamicData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6428F82AF403D2002499F5 /* DynamicData.swift */; };
+		AD7421972AE8B9B100C12765 /* DomRewards.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7421962AE8B9B100C12765 /* DomRewards.swift */; };
+		AD7421992AE8BDFC00C12765 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD7421982AE8BDFC00C12765 /* Launch Screen.storyboard */; };
+		AD74AA952B5F58920033570B /* SimpleToast in Frameworks */ = {isa = PBXBuildFile; productRef = AD74AA942B5F58920033570B /* SimpleToast */; };
+		AD77C3A02AE15C9A001E935C /* DomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD77C39F2AE15C9A001E935C /* DomView.swift */; };
+		AD77C3A22AE2D5FE001E935C /* DomHabitTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD77C3A12AE2D5FE001E935C /* DomHabitTasks.swift */; };
+		AD79A9F62AEB2473004E20A4 /* DomPunishmentDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD79A9F52AEB2473004E20A4 /* DomPunishmentDetails.swift */; };
+		AD7F4DC92AE55DB7000D0AAA /* HabitTaskDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7F4DC82AE55DB7000D0AAA /* HabitTaskDetails.swift */; };
+		AD8180252AE9D0BC0089C32D /* DomMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8180242AE9D0BC0089C32D /* DomMessages.swift */; };
+		AD8180272AE9D1DD0089C32D /* CreateEditMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8180262AE9D1DD0089C32D /* CreateEditMessage.swift */; };
+		AD8267D52AE0600300B72C98 /* Discipline_Habit_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8267D42AE0600300B72C98 /* Discipline_Habit_TrackerApp.swift */; };
+		AD8267D72AE0600300B72C98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8267D62AE0600300B72C98 /* ContentView.swift */; };
+		AD8267D92AE0600400B72C98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD8267D82AE0600400B72C98 /* Assets.xcassets */; };
+		AD8267DC2AE0600400B72C98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD8267DB2AE0600400B72C98 /* Preview Assets.xcassets */; };
+		AD8267E62AE0600400B72C98 /* Discipline_Habit_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8267E52AE0600400B72C98 /* Discipline_Habit_TrackerTests.swift */; };
+		AD8267F02AE0600400B72C98 /* Discipline_Habit_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8267EF2AE0600400B72C98 /* Discipline_Habit_TrackerUITests.swift */; };
+		AD8267F22AE0600400B72C98 /* Discipline_Habit_TrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8267F12AE0600400B72C98 /* Discipline_Habit_TrackerUITestsLaunchTests.swift */; };
+		AD85702C2AFC253B00A7E83A /* EffectsLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = AD85702B2AFC253B00A7E83A /* EffectsLibrary */; };
+		ADA63DE92B0C1B9400AE2C41 /* RewardUsageHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA63DE82B0C1B9400AE2C41 /* RewardUsageHistory.swift */; };
+		ADA9F6C82AE48F6400A81ABF /* CreateEditHabitTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA9F6C72AE48F6400A81ABF /* CreateEditHabitTask.swift */; };
+		ADA9F6CA2AE4921200A81ABF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA9F6C92AE4921200A81ABF /* LoginView.swift */; };
+		ADC047832B0D453E00F4F957 /* PunishmentUsageHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC047822B0D453E00F4F957 /* PunishmentUsageHistory.swift */; };
+		ADCF82CA2B61A692000BA45F /* HabitTask7DayHistoryDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF82C92B61A692000BA45F /* HabitTask7DayHistoryDay.swift */; };
+		ADD345742AED70FF007F1875 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD345732AED70FF007F1875 /* SettingsView.swift */; };
+		ADD345762AED79E7007F1875 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD345752AED79E7007F1875 /* Color.swift */; };
+		ADD345782AED90D3007F1875 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD345772AED90D3007F1875 /* UserData.swift */; };
+		ADD3457B2AED95AB007F1875 /* SubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD3457A2AED95AB007F1875 /* SubView.swift */; };
+		ADD3457E2AED97E5007F1875 /* SubHabitTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD3457D2AED97E5007F1875 /* SubHabitTasks.swift */; };
+		ADD345832AED986B007F1875 /* SubPunishments.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD345822AED986B007F1875 /* SubPunishments.swift */; };
+		ADD345852AED98D2007F1875 /* SubPunishmentDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD345842AED98D2007F1875 /* SubPunishmentDetails.swift */; };
+		ADD345882AED9A58007F1875 /* SubRewards.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD345872AED9A58007F1875 /* SubRewards.swift */; };
+		ADD3458A2AED9ABA007F1875 /* SubRewardDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD345892AED9ABA007F1875 /* SubRewardDetails.swift */; };
+		ADD3458D2AED9DA2007F1875 /* SubBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD3458C2AED9DA2007F1875 /* SubBank.swift */; };
+		ADD3458F2AED9EBC007F1875 /* SubBankRewardDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD3458E2AED9EBC007F1875 /* SubBankRewardDetails.swift */; };
+		ADD659C22B016E55004C5F11 /* Rrule.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD659C12B016E55004C5F11 /* Rrule.swift */; };
+		ADE962BB2B13BCDE000449E3 /* HabitTask7DayHistoryInner.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE962BA2B13BCDE000449E3 /* HabitTask7DayHistoryInner.swift */; };
+		ADE962BD2B13DF77000449E3 /* TimeZonePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE962BC2B13DF77000449E3 /* TimeZonePicker.swift */; };
+		ADE962C02B13EC24000449E3 /* Groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE962BF2B13EC24000449E3 /* Groups.swift */; };
+		ADE962C22B13EF55000449E3 /* GroupData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE962C12B13EF55000449E3 /* GroupData.swift */; };
+		ADE962C42B13F094000449E3 /* GroupRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE962C32B13F094000449E3 /* GroupRow.swift */; };
+		ADE962C62B13F0D9000449E3 /* CreateEditGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE962C52B13F0D9000449E3 /* CreateEditGroup.swift */; };
+		ADE962C82B13F76D000449E3 /* GroupDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE962C72B13F76D000449E3 /* GroupDetails.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD8267E22AE0600400B72C98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD8267C92AE0600200B72C98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD8267D02AE0600200B72C98;
+			remoteInfo = "Discipline Habit Tracker";
+		};
+		AD8267EC2AE0600400B72C98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD8267C92AE0600200B72C98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD8267D02AE0600200B72C98;
+			remoteInfo = "Discipline Habit Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD0CC9D52AE9C01B0097283A /* CreateEditPunishment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEditPunishment.swift; sourceTree = "<group>"; };
+		AD0CC9D72AE9C6690097283A /* CreateEditReward.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEditReward.swift; sourceTree = "<group>"; };
+		AD11E7FE2AEB2A0200E41A9A /* RewardDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardDetails.swift; sourceTree = "<group>"; };
+		AD11E8002AEB2D4E00E41A9A /* MessageDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDetails.swift; sourceTree = "<group>"; };
+		AD11E8032AEC8EAA00E41A9A /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		AD11E8062AEC917500E41A9A /* HabitTaskData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTaskData.swift; sourceTree = "<group>"; };
+		AD11E8082AECA9A100E41A9A /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		AD11E80B2AECAC6900E41A9A /* HabitTask7DayHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTask7DayHistory.swift; sourceTree = "<group>"; };
+		AD11E80E2AED591700E41A9A /* PunishmentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunishmentData.swift; sourceTree = "<group>"; };
+		AD11E8102AED5A9300E41A9A /* HabitTaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTaskRow.swift; sourceTree = "<group>"; };
+		AD11E8122AED5ABC00E41A9A /* PunishmentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunishmentRow.swift; sourceTree = "<group>"; };
+		AD11E8142AED5ED400E41A9A /* RewardRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardRow.swift; sourceTree = "<group>"; };
+		AD11E8162AED5EE300E41A9A /* RewardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardData.swift; sourceTree = "<group>"; };
+		AD11E8182AED61D100E41A9A /* MessageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRow.swift; sourceTree = "<group>"; };
+		AD11E81A2AED61DE00E41A9A /* MessageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageData.swift; sourceTree = "<group>"; };
+		AD12E02B2B19443E0007DAB2 /* ReminderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderData.swift; sourceTree = "<group>"; };
+		AD26B6392AFC1006009365CA /* DomOtherTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomOtherTab.swift; sourceTree = "<group>"; };
+		AD26B63B2AFC11E2009365CA /* SubOtherTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubOtherTab.swift; sourceTree = "<group>"; };
+		AD26B63D2AFC12B6009365CA /* HabitTaskHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTaskHistory.swift; sourceTree = "<group>"; };
+		AD40E0E82AE748BA0020C2C8 /* DomPunishments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomPunishments.swift; sourceTree = "<group>"; };
+		AD499BA22B2BDC0B0097CCC2 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		AD4AA1B82AEEC56D0095E563 /* GenericData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericData.swift; sourceTree = "<group>"; };
+		AD5D45F52B4C815100D88ADC /* SecureTextFieldWithReveal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureTextFieldWithReveal.swift; sourceTree = "<group>"; };
+		AD6428EA2AF32789002499F5 /* DomRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomRules.swift; sourceTree = "<group>"; };
+		AD6428EC2AF327AD002499F5 /* CreateEditRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEditRule.swift; sourceTree = "<group>"; };
+		AD6428EE2AF3282B002499F5 /* RuleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleData.swift; sourceTree = "<group>"; };
+		AD6428F02AF328D0002499F5 /* RuleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleRow.swift; sourceTree = "<group>"; };
+		AD6428F32AF32971002499F5 /* SubRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubRules.swift; sourceTree = "<group>"; };
+		AD6428F62AF401BF002499F5 /* DynamicInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicInfo.swift; sourceTree = "<group>"; };
+		AD6428F82AF403D2002499F5 /* DynamicData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicData.swift; sourceTree = "<group>"; };
+		AD7421952AE8874400C12765 /* Discipline-Habit-Tracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Discipline-Habit-Tracker-Info.plist"; sourceTree = SOURCE_ROOT; };
+		AD7421962AE8B9B100C12765 /* DomRewards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomRewards.swift; sourceTree = "<group>"; };
+		AD7421982AE8BDFC00C12765 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		AD77C39F2AE15C9A001E935C /* DomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomView.swift; sourceTree = "<group>"; };
+		AD77C3A12AE2D5FE001E935C /* DomHabitTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomHabitTasks.swift; sourceTree = "<group>"; };
+		AD79A9F52AEB2473004E20A4 /* DomPunishmentDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomPunishmentDetails.swift; sourceTree = "<group>"; };
+		AD7F4DC82AE55DB7000D0AAA /* HabitTaskDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTaskDetails.swift; sourceTree = "<group>"; };
+		AD8180242AE9D0BC0089C32D /* DomMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomMessages.swift; sourceTree = "<group>"; };
+		AD8180262AE9D1DD0089C32D /* CreateEditMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEditMessage.swift; sourceTree = "<group>"; };
+		AD8267D12AE0600300B72C98 /* Discipline Habit Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Discipline Habit Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8267D42AE0600300B72C98 /* Discipline_Habit_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discipline_Habit_TrackerApp.swift; sourceTree = "<group>"; };
+		AD8267D62AE0600300B72C98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD8267D82AE0600400B72C98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD8267DB2AE0600400B72C98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD8267E12AE0600400B72C98 /* Discipline Habit TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Discipline Habit TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8267E52AE0600400B72C98 /* Discipline_Habit_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discipline_Habit_TrackerTests.swift; sourceTree = "<group>"; };
+		AD8267EB2AE0600400B72C98 /* Discipline Habit TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Discipline Habit TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8267EF2AE0600400B72C98 /* Discipline_Habit_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discipline_Habit_TrackerUITests.swift; sourceTree = "<group>"; };
+		AD8267F12AE0600400B72C98 /* Discipline_Habit_TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discipline_Habit_TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ADA63DE82B0C1B9400AE2C41 /* RewardUsageHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardUsageHistory.swift; sourceTree = "<group>"; };
+		ADA9F6C72AE48F6400A81ABF /* CreateEditHabitTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEditHabitTask.swift; sourceTree = "<group>"; };
+		ADA9F6C92AE4921200A81ABF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		ADBC8F7B2B3261B5006B630E /* Discipline Habit Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Discipline Habit Tracker.entitlements"; sourceTree = "<group>"; };
+		ADC047822B0D453E00F4F957 /* PunishmentUsageHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunishmentUsageHistory.swift; sourceTree = "<group>"; };
+		ADCF82C92B61A692000BA45F /* HabitTask7DayHistoryDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTask7DayHistoryDay.swift; sourceTree = "<group>"; };
+		ADD345732AED70FF007F1875 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		ADD345752AED79E7007F1875 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		ADD345772AED90D3007F1875 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		ADD3457A2AED95AB007F1875 /* SubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubView.swift; sourceTree = "<group>"; };
+		ADD3457D2AED97E5007F1875 /* SubHabitTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubHabitTasks.swift; sourceTree = "<group>"; };
+		ADD345822AED986B007F1875 /* SubPunishments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubPunishments.swift; sourceTree = "<group>"; };
+		ADD345842AED98D2007F1875 /* SubPunishmentDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubPunishmentDetails.swift; sourceTree = "<group>"; };
+		ADD345872AED9A58007F1875 /* SubRewards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubRewards.swift; sourceTree = "<group>"; };
+		ADD345892AED9ABA007F1875 /* SubRewardDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubRewardDetails.swift; sourceTree = "<group>"; };
+		ADD3458C2AED9DA2007F1875 /* SubBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubBank.swift; sourceTree = "<group>"; };
+		ADD3458E2AED9EBC007F1875 /* SubBankRewardDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubBankRewardDetails.swift; sourceTree = "<group>"; };
+		ADD659C12B016E55004C5F11 /* Rrule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rrule.swift; sourceTree = "<group>"; };
+		ADE962BA2B13BCDE000449E3 /* HabitTask7DayHistoryInner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTask7DayHistoryInner.swift; sourceTree = "<group>"; };
+		ADE962BC2B13DF77000449E3 /* TimeZonePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeZonePicker.swift; sourceTree = "<group>"; };
+		ADE962BF2B13EC24000449E3 /* Groups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groups.swift; sourceTree = "<group>"; };
+		ADE962C12B13EF55000449E3 /* GroupData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupData.swift; sourceTree = "<group>"; };
+		ADE962C32B13F094000449E3 /* GroupRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupRow.swift; sourceTree = "<group>"; };
+		ADE962C52B13F0D9000449E3 /* CreateEditGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEditGroup.swift; sourceTree = "<group>"; };
+		ADE962C72B13F76D000449E3 /* GroupDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetails.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD8267CE2AE0600200B72C98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD74AA952B5F58920033570B /* SimpleToast in Frameworks */,
+				AD85702C2AFC253B00A7E83A /* EffectsLibrary in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8267DE2AE0600400B72C98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8267E82AE0600400B72C98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD11E8022AEC8E7800E41A9A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AD11E8032AEC8EAA00E41A9A /* Api.swift */,
+				AD11E8082AECA9A100E41A9A /* Date.swift */,
+				ADD345752AED79E7007F1875 /* Color.swift */,
+				ADD659C12B016E55004C5F11 /* Rrule.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		AD11E8052AEC914A00E41A9A /* Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				AD11E8062AEC917500E41A9A /* HabitTaskData.swift */,
+				AD11E80E2AED591700E41A9A /* PunishmentData.swift */,
+				AD11E8162AED5EE300E41A9A /* RewardData.swift */,
+				AD11E81A2AED61DE00E41A9A /* MessageData.swift */,
+				ADD345772AED90D3007F1875 /* UserData.swift */,
+				AD4AA1B82AEEC56D0095E563 /* GenericData.swift */,
+				AD6428EE2AF3282B002499F5 /* RuleData.swift */,
+				AD6428F82AF403D2002499F5 /* DynamicData.swift */,
+				ADE962C12B13EF55000449E3 /* GroupData.swift */,
+				AD12E02B2B19443E0007DAB2 /* ReminderData.swift */,
+			);
+			path = "Data Structures";
+			sourceTree = "<group>";
+		};
+		AD11E80A2AECAC5300E41A9A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AD26B63D2AFC12B6009365CA /* HabitTaskHistory.swift */,
+				AD11E80B2AECAC6900E41A9A /* HabitTask7DayHistory.swift */,
+				ADCF82C92B61A692000BA45F /* HabitTask7DayHistoryDay.swift */,
+				ADE962BA2B13BCDE000449E3 /* HabitTask7DayHistoryInner.swift */,
+				AD11E8102AED5A9300E41A9A /* HabitTaskRow.swift */,
+				AD11E8122AED5ABC00E41A9A /* PunishmentRow.swift */,
+				AD11E8142AED5ED400E41A9A /* RewardRow.swift */,
+				AD11E8182AED61D100E41A9A /* MessageRow.swift */,
+				AD6428F02AF328D0002499F5 /* RuleRow.swift */,
+				ADA63DE82B0C1B9400AE2C41 /* RewardUsageHistory.swift */,
+				ADC047822B0D453E00F4F957 /* PunishmentUsageHistory.swift */,
+				ADE962BC2B13DF77000449E3 /* TimeZonePicker.swift */,
+				ADE962C32B13F094000449E3 /* GroupRow.swift */,
+				AD5D45F52B4C815100D88ADC /* SecureTextFieldWithReveal.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AD11E80D2AECB28B00E41A9A /* Dom */ = {
+			isa = PBXGroup;
+			children = (
+				AD77C39F2AE15C9A001E935C /* DomView.swift */,
+				AD26B6392AFC1006009365CA /* DomOtherTab.swift */,
+				ADE962BE2B13EC0A000449E3 /* Groups */,
+				AD6428E92AF32777002499F5 /* Rule */,
+				AD11E81F2AED66FF00E41A9A /* Message */,
+				AD11E81E2AED66C800E41A9A /* Reward */,
+				AD11E81D2AED66AF00E41A9A /* Punishment */,
+				AD11E81C2AED63BC00E41A9A /* HabitTask */,
+			);
+			path = Dom;
+			sourceTree = "<group>";
+		};
+		AD11E81C2AED63BC00E41A9A /* HabitTask */ = {
+			isa = PBXGroup;
+			children = (
+				AD77C3A12AE2D5FE001E935C /* DomHabitTasks.swift */,
+				ADA9F6C72AE48F6400A81ABF /* CreateEditHabitTask.swift */,
+			);
+			path = HabitTask;
+			sourceTree = "<group>";
+		};
+		AD11E81D2AED66AF00E41A9A /* Punishment */ = {
+			isa = PBXGroup;
+			children = (
+				AD40E0E82AE748BA0020C2C8 /* DomPunishments.swift */,
+				AD79A9F52AEB2473004E20A4 /* DomPunishmentDetails.swift */,
+				AD0CC9D52AE9C01B0097283A /* CreateEditPunishment.swift */,
+			);
+			path = Punishment;
+			sourceTree = "<group>";
+		};
+		AD11E81E2AED66C800E41A9A /* Reward */ = {
+			isa = PBXGroup;
+			children = (
+				AD7421962AE8B9B100C12765 /* DomRewards.swift */,
+				AD11E7FE2AEB2A0200E41A9A /* RewardDetails.swift */,
+				AD0CC9D72AE9C6690097283A /* CreateEditReward.swift */,
+			);
+			path = Reward;
+			sourceTree = "<group>";
+		};
+		AD11E81F2AED66FF00E41A9A /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				AD8180242AE9D0BC0089C32D /* DomMessages.swift */,
+				AD11E8002AEB2D4E00E41A9A /* MessageDetails.swift */,
+				AD8180262AE9D1DD0089C32D /* CreateEditMessage.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		AD6428E92AF32777002499F5 /* Rule */ = {
+			isa = PBXGroup;
+			children = (
+				AD6428EA2AF32789002499F5 /* DomRules.swift */,
+				AD6428EC2AF327AD002499F5 /* CreateEditRule.swift */,
+			);
+			path = Rule;
+			sourceTree = "<group>";
+		};
+		AD6428F22AF3295A002499F5 /* Rule */ = {
+			isa = PBXGroup;
+			children = (
+				AD6428F32AF32971002499F5 /* SubRules.swift */,
+			);
+			path = Rule;
+			sourceTree = "<group>";
+		};
+		AD6428F52AF40187002499F5 /* Dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				AD6428F62AF401BF002499F5 /* DynamicInfo.swift */,
+			);
+			path = Dynamic;
+			sourceTree = "<group>";
+		};
+		AD8267C82AE0600200B72C98 = {
+			isa = PBXGroup;
+			children = (
+				AD7421982AE8BDFC00C12765 /* Launch Screen.storyboard */,
+				AD8267D32AE0600300B72C98 /* Discipline Habit Tracker */,
+				AD8267E42AE0600400B72C98 /* Discipline Habit TrackerTests */,
+				AD8267EE2AE0600400B72C98 /* Discipline Habit TrackerUITests */,
+				AD8267D22AE0600300B72C98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD8267D22AE0600300B72C98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD8267D12AE0600300B72C98 /* Discipline Habit Tracker.app */,
+				AD8267E12AE0600400B72C98 /* Discipline Habit TrackerTests.xctest */,
+				AD8267EB2AE0600400B72C98 /* Discipline Habit TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD8267D32AE0600300B72C98 /* Discipline Habit Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				ADBC8F7B2B3261B5006B630E /* Discipline Habit Tracker.entitlements */,
+				ADD3457F2AED9806007F1875 /* DomAndSub */,
+				ADD345792AED959C007F1875 /* Sub */,
+				AD7421952AE8874400C12765 /* Discipline-Habit-Tracker-Info.plist */,
+				AD8267D42AE0600300B72C98 /* Discipline_Habit_TrackerApp.swift */,
+				AD8267D62AE0600300B72C98 /* ContentView.swift */,
+				AD11E80D2AECB28B00E41A9A /* Dom */,
+				AD11E80A2AECAC5300E41A9A /* Components */,
+				AD11E8052AEC914A00E41A9A /* Data Structures */,
+				AD11E8022AEC8E7800E41A9A /* Helpers */,
+				AD8267D82AE0600400B72C98 /* Assets.xcassets */,
+				AD8267DA2AE0600400B72C98 /* Preview Content */,
+			);
+			path = "Discipline Habit Tracker";
+			sourceTree = "<group>";
+		};
+		AD8267DA2AE0600400B72C98 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD8267DB2AE0600400B72C98 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD8267E42AE0600400B72C98 /* Discipline Habit TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD8267E52AE0600400B72C98 /* Discipline_Habit_TrackerTests.swift */,
+			);
+			path = "Discipline Habit TrackerTests";
+			sourceTree = "<group>";
+		};
+		AD8267EE2AE0600400B72C98 /* Discipline Habit TrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD8267EF2AE0600400B72C98 /* Discipline_Habit_TrackerUITests.swift */,
+				AD8267F12AE0600400B72C98 /* Discipline_Habit_TrackerUITestsLaunchTests.swift */,
+			);
+			path = "Discipline Habit TrackerUITests";
+			sourceTree = "<group>";
+		};
+		ADD345792AED959C007F1875 /* Sub */ = {
+			isa = PBXGroup;
+			children = (
+				ADD3457A2AED95AB007F1875 /* SubView.swift */,
+				AD26B63B2AFC11E2009365CA /* SubOtherTab.swift */,
+				AD6428F22AF3295A002499F5 /* Rule */,
+				ADD3458B2AED9D95007F1875 /* Bank */,
+				ADD345862AED9A4B007F1875 /* Rewards */,
+				ADD345812AED985F007F1875 /* Punishments */,
+				ADD3457C2AED97D7007F1875 /* HabitTasks */,
+			);
+			path = Sub;
+			sourceTree = "<group>";
+		};
+		ADD3457C2AED97D7007F1875 /* HabitTasks */ = {
+			isa = PBXGroup;
+			children = (
+				ADD3457D2AED97E5007F1875 /* SubHabitTasks.swift */,
+			);
+			path = HabitTasks;
+			sourceTree = "<group>";
+		};
+		ADD3457F2AED9806007F1875 /* DomAndSub */ = {
+			isa = PBXGroup;
+			children = (
+				ADD345732AED70FF007F1875 /* SettingsView.swift */,
+				ADA9F6C92AE4921200A81ABF /* LoginView.swift */,
+				AD6428F52AF40187002499F5 /* Dynamic */,
+				ADD345802AED9810007F1875 /* HabitTasks */,
+				AD499BA22B2BDC0B0097CCC2 /* Register.swift */,
+			);
+			path = DomAndSub;
+			sourceTree = "<group>";
+		};
+		ADD345802AED9810007F1875 /* HabitTasks */ = {
+			isa = PBXGroup;
+			children = (
+				AD7F4DC82AE55DB7000D0AAA /* HabitTaskDetails.swift */,
+			);
+			path = HabitTasks;
+			sourceTree = "<group>";
+		};
+		ADD345812AED985F007F1875 /* Punishments */ = {
+			isa = PBXGroup;
+			children = (
+				ADD345822AED986B007F1875 /* SubPunishments.swift */,
+				ADD345842AED98D2007F1875 /* SubPunishmentDetails.swift */,
+			);
+			path = Punishments;
+			sourceTree = "<group>";
+		};
+		ADD345862AED9A4B007F1875 /* Rewards */ = {
+			isa = PBXGroup;
+			children = (
+				ADD345872AED9A58007F1875 /* SubRewards.swift */,
+				ADD345892AED9ABA007F1875 /* SubRewardDetails.swift */,
+			);
+			path = Rewards;
+			sourceTree = "<group>";
+		};
+		ADD3458B2AED9D95007F1875 /* Bank */ = {
+			isa = PBXGroup;
+			children = (
+				ADD3458C2AED9DA2007F1875 /* SubBank.swift */,
+				ADD3458E2AED9EBC007F1875 /* SubBankRewardDetails.swift */,
+			);
+			path = Bank;
+			sourceTree = "<group>";
+		};
+		ADE962BE2B13EC0A000449E3 /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				ADE962BF2B13EC24000449E3 /* Groups.swift */,
+				ADE962C52B13F0D9000449E3 /* CreateEditGroup.swift */,
+				ADE962C72B13F76D000449E3 /* GroupDetails.swift */,
+			);
+			path = Groups;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD8267D02AE0600200B72C98 /* Discipline Habit Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD8267F52AE0600400B72C98 /* Build configuration list for PBXNativeTarget "Discipline Habit Tracker" */;
+			buildPhases = (
+				AD8267CD2AE0600200B72C98 /* Sources */,
+				AD8267CE2AE0600200B72C98 /* Frameworks */,
+				AD8267CF2AE0600200B72C98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Discipline Habit Tracker";
+			packageProductDependencies = (
+				AD85702B2AFC253B00A7E83A /* EffectsLibrary */,
+				AD74AA942B5F58920033570B /* SimpleToast */,
+			);
+			productName = "Discipline Habit Tracker";
+			productReference = AD8267D12AE0600300B72C98 /* Discipline Habit Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD8267E02AE0600400B72C98 /* Discipline Habit TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD8267F82AE0600400B72C98 /* Build configuration list for PBXNativeTarget "Discipline Habit TrackerTests" */;
+			buildPhases = (
+				AD8267DD2AE0600400B72C98 /* Sources */,
+				AD8267DE2AE0600400B72C98 /* Frameworks */,
+				AD8267DF2AE0600400B72C98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD8267E32AE0600400B72C98 /* PBXTargetDependency */,
+			);
+			name = "Discipline Habit TrackerTests";
+			productName = "Discipline Habit TrackerTests";
+			productReference = AD8267E12AE0600400B72C98 /* Discipline Habit TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD8267EA2AE0600400B72C98 /* Discipline Habit TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD8267FB2AE0600400B72C98 /* Build configuration list for PBXNativeTarget "Discipline Habit TrackerUITests" */;
+			buildPhases = (
+				AD8267E72AE0600400B72C98 /* Sources */,
+				AD8267E82AE0600400B72C98 /* Frameworks */,
+				AD8267E92AE0600400B72C98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD8267ED2AE0600400B72C98 /* PBXTargetDependency */,
+			);
+			name = "Discipline Habit TrackerUITests";
+			productName = "Discipline Habit TrackerUITests";
+			productReference = AD8267EB2AE0600400B72C98 /* Discipline Habit TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD8267C92AE0600200B72C98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AD8267D02AE0600200B72C98 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					AD8267E02AE0600400B72C98 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = AD8267D02AE0600200B72C98;
+					};
+					AD8267EA2AE0600400B72C98 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = AD8267D02AE0600200B72C98;
+					};
+				};
+			};
+			buildConfigurationList = AD8267CC2AE0600200B72C98 /* Build configuration list for PBXProject "Discipline Habit Tracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD8267C82AE0600200B72C98;
+			packageReferences = (
+				AD85702A2AFC253B00A7E83A /* XCRemoteSwiftPackageReference "effects-library" */,
+				AD74AA932B5F58920033570B /* XCRemoteSwiftPackageReference "SimpleToast" */,
+			);
+			productRefGroup = AD8267D22AE0600300B72C98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD8267D02AE0600200B72C98 /* Discipline Habit Tracker */,
+				AD8267E02AE0600400B72C98 /* Discipline Habit TrackerTests */,
+				AD8267EA2AE0600400B72C98 /* Discipline Habit TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD8267CF2AE0600200B72C98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7421992AE8BDFC00C12765 /* Launch Screen.storyboard in Resources */,
+				AD8267DC2AE0600400B72C98 /* Preview Assets.xcassets in Resources */,
+				AD8267D92AE0600400B72C98 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8267DF2AE0600400B72C98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8267E92AE0600400B72C98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD8267CD2AE0600200B72C98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD659C22B016E55004C5F11 /* Rrule.swift in Sources */,
+				AD11E8072AEC917500E41A9A /* HabitTaskData.swift in Sources */,
+				AD7F4DC92AE55DB7000D0AAA /* HabitTaskDetails.swift in Sources */,
+				AD11E80F2AED591700E41A9A /* PunishmentData.swift in Sources */,
+				ADA9F6CA2AE4921200A81ABF /* LoginView.swift in Sources */,
+				AD11E81B2AED61DE00E41A9A /* MessageData.swift in Sources */,
+				ADA9F6C82AE48F6400A81ABF /* CreateEditHabitTask.swift in Sources */,
+				ADD3458F2AED9EBC007F1875 /* SubBankRewardDetails.swift in Sources */,
+				ADD3457E2AED97E5007F1875 /* SubHabitTasks.swift in Sources */,
+				AD77C3A02AE15C9A001E935C /* DomView.swift in Sources */,
+				AD8180252AE9D0BC0089C32D /* DomMessages.swift in Sources */,
+				AD5D45F62B4C815100D88ADC /* SecureTextFieldWithReveal.swift in Sources */,
+				ADE962C62B13F0D9000449E3 /* CreateEditGroup.swift in Sources */,
+				ADE962C42B13F094000449E3 /* GroupRow.swift in Sources */,
+				AD12E02C2B19443E0007DAB2 /* ReminderData.swift in Sources */,
+				ADD3457B2AED95AB007F1875 /* SubView.swift in Sources */,
+				AD6428F92AF403D2002499F5 /* DynamicData.swift in Sources */,
+				ADE962C02B13EC24000449E3 /* Groups.swift in Sources */,
+				ADC047832B0D453E00F4F957 /* PunishmentUsageHistory.swift in Sources */,
+				AD26B63A2AFC1006009365CA /* DomOtherTab.swift in Sources */,
+				ADD3458A2AED9ABA007F1875 /* SubRewardDetails.swift in Sources */,
+				ADE962C22B13EF55000449E3 /* GroupData.swift in Sources */,
+				ADE962C82B13F76D000449E3 /* GroupDetails.swift in Sources */,
+				AD11E8152AED5ED400E41A9A /* RewardRow.swift in Sources */,
+				AD6428F12AF328D0002499F5 /* RuleRow.swift in Sources */,
+				AD11E8192AED61D100E41A9A /* MessageRow.swift in Sources */,
+				AD11E8042AEC8EAA00E41A9A /* Api.swift in Sources */,
+				AD8267D72AE0600300B72C98 /* ContentView.swift in Sources */,
+				AD7421972AE8B9B100C12765 /* DomRewards.swift in Sources */,
+				ADD345832AED986B007F1875 /* SubPunishments.swift in Sources */,
+				ADD345882AED9A58007F1875 /* SubRewards.swift in Sources */,
+				AD11E8112AED5A9300E41A9A /* HabitTaskRow.swift in Sources */,
+				AD40E0E92AE748BA0020C2C8 /* DomPunishments.swift in Sources */,
+				AD11E7FF2AEB2A0200E41A9A /* RewardDetails.swift in Sources */,
+				AD26B63E2AFC12B6009365CA /* HabitTaskHistory.swift in Sources */,
+				AD8180272AE9D1DD0089C32D /* CreateEditMessage.swift in Sources */,
+				AD499BA32B2BDC0B0097CCC2 /* Register.swift in Sources */,
+				ADD345762AED79E7007F1875 /* Color.swift in Sources */,
+				AD6428F72AF401BF002499F5 /* DynamicInfo.swift in Sources */,
+				ADD345782AED90D3007F1875 /* UserData.swift in Sources */,
+				AD11E8012AEB2D4E00E41A9A /* MessageDetails.swift in Sources */,
+				AD0CC9D82AE9C6690097283A /* CreateEditReward.swift in Sources */,
+				AD26B63C2AFC11E2009365CA /* SubOtherTab.swift in Sources */,
+				AD0CC9D62AE9C01B0097283A /* CreateEditPunishment.swift in Sources */,
+				AD11E8132AED5ABC00E41A9A /* PunishmentRow.swift in Sources */,
+				AD6428F42AF32971002499F5 /* SubRules.swift in Sources */,
+				ADD345852AED98D2007F1875 /* SubPunishmentDetails.swift in Sources */,
+				ADD345742AED70FF007F1875 /* SettingsView.swift in Sources */,
+				AD8267D52AE0600300B72C98 /* Discipline_Habit_TrackerApp.swift in Sources */,
+				ADA63DE92B0C1B9400AE2C41 /* RewardUsageHistory.swift in Sources */,
+				AD6428ED2AF327AD002499F5 /* CreateEditRule.swift in Sources */,
+				AD11E8092AECA9A100E41A9A /* Date.swift in Sources */,
+				AD4AA1B92AEEC56D0095E563 /* GenericData.swift in Sources */,
+				AD11E8172AED5EE300E41A9A /* RewardData.swift in Sources */,
+				AD11E80C2AECAC6900E41A9A /* HabitTask7DayHistory.swift in Sources */,
+				ADCF82CA2B61A692000BA45F /* HabitTask7DayHistoryDay.swift in Sources */,
+				AD6428EB2AF32789002499F5 /* DomRules.swift in Sources */,
+				AD77C3A22AE2D5FE001E935C /* DomHabitTasks.swift in Sources */,
+				ADD3458D2AED9DA2007F1875 /* SubBank.swift in Sources */,
+				AD79A9F62AEB2473004E20A4 /* DomPunishmentDetails.swift in Sources */,
+				AD6428EF2AF3282B002499F5 /* RuleData.swift in Sources */,
+				ADE962BB2B13BCDE000449E3 /* HabitTask7DayHistoryInner.swift in Sources */,
+				ADE962BD2B13DF77000449E3 /* TimeZonePicker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8267DD2AE0600400B72C98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8267E62AE0600400B72C98 /* Discipline_Habit_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8267E72AE0600400B72C98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8267F22AE0600400B72C98 /* Discipline_Habit_TrackerUITestsLaunchTests.swift in Sources */,
+				AD8267F02AE0600400B72C98 /* Discipline_Habit_TrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD8267E32AE0600400B72C98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD8267D02AE0600200B72C98 /* Discipline Habit Tracker */;
+			targetProxy = AD8267E22AE0600400B72C98 /* PBXContainerItemProxy */;
+		};
+		AD8267ED2AE0600400B72C98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD8267D02AE0600200B72C98 /* Discipline Habit Tracker */;
+			targetProxy = AD8267EC2AE0600400B72C98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD8267F32AE0600400B72C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD8267F42AE0600400B72C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD8267F62AE0600400B72C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Discipline Habit Tracker/Discipline Habit Tracker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Discipline Habit Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 9DJ287WB9H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Discipline-Habit-Tracker-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Discipline;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.29;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.wyattgrant.DisciplineHabitTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AD8267F72AE0600400B72C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Discipline Habit Tracker/Discipline Habit Tracker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Discipline Habit Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 9DJ287WB9H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Discipline-Habit-Tracker-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Discipline;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.29;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.wyattgrant.DisciplineHabitTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AD8267F92AE0600400B72C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.wyattgrant.Discipline-Habit-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Discipline Habit Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Discipline Habit Tracker";
+			};
+			name = Debug;
+		};
+		AD8267FA2AE0600400B72C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.wyattgrant.Discipline-Habit-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Discipline Habit Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Discipline Habit Tracker";
+			};
+			name = Release;
+		};
+		AD8267FC2AE0600400B72C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.wyattgrant.Discipline-Habit-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Discipline Habit Tracker";
+			};
+			name = Debug;
+		};
+		AD8267FD2AE0600400B72C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.wyattgrant.Discipline-Habit-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Discipline Habit Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD8267CC2AE0600200B72C98 /* Build configuration list for PBXProject "Discipline Habit Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD8267F32AE0600400B72C98 /* Debug */,
+				AD8267F42AE0600400B72C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD8267F52AE0600400B72C98 /* Build configuration list for PBXNativeTarget "Discipline Habit Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD8267F62AE0600400B72C98 /* Debug */,
+				AD8267F72AE0600400B72C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD8267F82AE0600400B72C98 /* Build configuration list for PBXNativeTarget "Discipline Habit TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD8267F92AE0600400B72C98 /* Debug */,
+				AD8267FA2AE0600400B72C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD8267FB2AE0600400B72C98 /* Build configuration list for PBXNativeTarget "Discipline Habit TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD8267FC2AE0600400B72C98 /* Debug */,
+				AD8267FD2AE0600400B72C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AD74AA932B5F58920033570B /* XCRemoteSwiftPackageReference "SimpleToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sanzaru/SimpleToast.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.8.1;
+			};
+		};
+		AD85702A2AFC253B00A7E83A /* XCRemoteSwiftPackageReference "effects-library" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GetStream/effects-library.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AD74AA942B5F58920033570B /* SimpleToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD74AA932B5F58920033570B /* XCRemoteSwiftPackageReference "SimpleToast" */;
+			productName = SimpleToast;
+		};
+		AD85702B2AFC253B00A7E83A /* EffectsLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD85702A2AFC253B00A7E83A /* XCRemoteSwiftPackageReference "effects-library" */;
+			productName = EffectsLibrary;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AD8267C92AE0600200B72C98 /* Project object */;
+}
